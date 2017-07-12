@@ -1,0 +1,74 @@
+* {
+	box-sizing: border-box;
+}
+
+
+////////////////////////*********PAGE STYLES
+
+li {
+	list-style: none;
+}
+
+a:link,
+a:visited,
+a:hover {
+	text-decoration: none;
+	color: #000;
+}
+
+header {
+	min-width: 100%;
+	background: #fff;
+	position: fixed;
+	top: 0;
+	padding: 0;
+	margin: 0;
+	position: 0;
+
+	nav {
+		padding: 20px;
+		display: flex;
+		justify-content: space-between;
+		background: #fff;
+
+		h4 {
+			margin: 0;
+		}
+
+		ul {
+			display: flex;
+			justify-content: space-between;
+			margin: 0;
+
+			li {
+				padding: 0 1rem;
+			}
+
+		}
+	}
+}
+
+.hero-container {
+	background-image: url("../images/hero.jpg");
+	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.7);
+	height: 100vh;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 20px;
+
+	.hero-content {
+		color: #fff;
+		display: flex;
+		margin: auto;
+		flex-direction: column;
+		margin: auto;
+		text-align: center;
+		margin-top: 100px;
+	}
+}
+
+#experience {
+
+	}
